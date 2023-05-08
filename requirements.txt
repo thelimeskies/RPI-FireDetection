@@ -1,0 +1,11 @@
+# Image Processing and Computer Vision library for Python
+opencv-python>=4.7.0.72
+
+# Raspberry Pi GPIO library for Python
+RPi.GPIO>=0.7.1
+
+# Python library for GPIO access on a Raspberry Pi
+# gpiozero>=1.6.2
+
+# smbus
+smbus2>=0.4.2
