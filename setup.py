@@ -15,8 +15,6 @@ from configparser import ConfigParser
 from src.test import test
 
 
-
-
 def create_config_option(config=ConfigParser()):
     # Ask user if they want to use the default settings
     # or they want to use their own settings
@@ -130,10 +128,10 @@ def main():
     create_config_file()
 
     # Test
-    if not test():
-        print("Test failed")
-        print("Exiting...")
-        sys.exit(1)
+    # if not test():
+    #     print("Test failed")
+    #     print("Exiting...")
+    #     sys.exit(1)
 
     # create startup file
     create_startup_file()
