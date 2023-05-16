@@ -1,5 +1,5 @@
 from lcd_display import test_lcd
-from camera_test import test_capture
+from camera_test import test_camera
 from relay_test import test_relay
 
 
@@ -15,7 +15,7 @@ def test():
         print("LCD display is not working properly")
 
     print("Testing camera...")
-    camera = test_capture()
+    camera = test_camera()
     if camera:
         print("Camera is working properly")
     else:

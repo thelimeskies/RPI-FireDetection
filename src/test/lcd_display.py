@@ -1,5 +1,4 @@
-from ..modules.lcd_i2c import LCD
-
+from src.modules.lcd_i2c import LCD
 # The LCD display is a 16x2 display that is connected to the Raspberry Pi via I2C.
 
 
