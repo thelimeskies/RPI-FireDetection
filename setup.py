@@ -139,3 +139,6 @@ def main():
     install_dependencies()
 
     print("Installation successful")
+
+
+main()
