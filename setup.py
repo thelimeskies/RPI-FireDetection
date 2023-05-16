@@ -12,7 +12,6 @@ import sys
 import subprocess
 from pathlib import Path
 from configparser import ConfigParser
-from src.test import test
 
 
 def create_config_option(config=ConfigParser()):
